@@ -83,7 +83,7 @@ public class LoginPage {
         loginButton.click();
 
 
-        continueButton.click();
+        //continueButton.click();
 
     }
 
