@@ -1,4 +1,4 @@
-package runner;
+package brainPop.runner;
 
 
 import io.cucumber.junit.Cucumber;

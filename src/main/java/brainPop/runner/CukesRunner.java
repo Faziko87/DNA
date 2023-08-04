@@ -1,4 +1,4 @@
-package runner;
+package brainPop.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,10 +12,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt" ,
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/resources/features" ,
-        glue = "com/library/steps",
+        features = "src/main/resources" ,
+        glue = "brainPop/stepDef",
         dryRun = false,
-        tags = "@wip"
+        tags = ""
 )
 public class CukesRunner {
 
